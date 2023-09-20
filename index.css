@@ -14,14 +14,14 @@ body {
     position: relative;
     width: 600px;
     height: 400px;
-    background: #1B244A;
+    background: #219ebc;
     margin: auto;
-    border: 4px solid #9AABD8;
+    border: 4px solid #023047;
     border-radius: 10px
 }
 
 #title {
-    color: #EEE;
+    color: #ffb703;
     text-align: center;
     font-family: Verdana;
     font-size: 40px;
@@ -31,11 +31,12 @@ body {
     width: 149px;
     height: 36px;
     margin: 50px 0 20px 0;
+    text-shadow: 5px 5px 4px #023047;
 }
 
 #home-el, #guest-el {
-    color: #F94F6D;
-    background: #080001;
+    color: #fb8500;
+    background: #023047;
     text-align: center;
     font-family: digital;
     font-size: 110px;
@@ -45,18 +46,20 @@ body {
     width: 155px;
     height: 120px;
     margin: 0px 0px 26px 0px;
+    border: 2px solid #ffb703;
+    border-radius: 10px;
 }
 
 #score-btn  {
     border-radius: 5px;
-    border: 2px solid #9AABD8;
-    color: #9AABD8;
-    background: #1B244A;
+    border: 2px solid #023047;
+    color: #023047;
+    background: #ffb703;
     text-align: center;
     font-family: digital;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bolder;
     line-height: 27.812px; /* 154.509% */
     width: 45px;
     height: 45px;
@@ -66,12 +69,13 @@ body {
 #reset-btn {
     position: absolute;
     bottom: 30px;
-    background: #EEE;
-    color: #F94F6D;
+    background:  #080001;
+    color: #ffb703;
     text-align: center;
     font-family: Verdana;
     font-size: 20px;
     font-weight: bold ;
-    border: 4px solid #9AABD8;
+    border: 4px solid #8ecae6;
     border-radius: 10px;
+    padding: 5px 10px;
 }
